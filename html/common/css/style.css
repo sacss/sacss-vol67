@@ -1,3 +1,86 @@
+/* ---------------------------
+ * base
+ * --------------------------- */
+
+img {
+  vertical-align: bottom;
+}
+
+/* ---------------------------
+ * common
+ * --------------------------- */
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear :both;
+}
+
+.l-inner {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.l-inner:after{
+  content: "";
+  display: block;
+  clear :both;
+}
+
+/* ---------------------------
+ * header
+ * --------------------------- */
+
+/*松木憲司*/
+.l-header {
+  width: 100%;
+}
+
+.header-logo {
+  float: left;
+}
+
+.description {
+  float: right;
+  font-size: 24px;
+}
+
+/* ---------------------------
+ * visual
+ * --------------------------- */
+
+/* HB_sai */
+.l-visual{
+  width: 100%;
+  background-color: #333333;
+  margin-bottom: 30px;
+}
+
+.top-visual {
+  position: relative;
+}
+
+.l-infomation {
+  width: 390px;
+  height: 130px;
+  background-color: #fff;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+
+
+.sub-visual {
+  width: 100%;
+  background-color: #333333;
+  height: 200px;
+
+}
+
+.sub-visual > img {
+  float: right;
+}
+
 /* hisashi-18編集ここから */
 
 p {
@@ -10,17 +93,7 @@ p {
 .sectionRight{
 	float: right;
 }
-.clearfix:before,
-.clearfix:after{
-	content: "";
-	display: table;
-}
-,clearfix:after{
-	clear :both;
-}
-.clearfix{
-	*zoom: 1;
-}
+
 .detail-img {
 	margin:0;
 }
@@ -34,16 +107,18 @@ p {
 /* hisashi-18編集ここまで */
 /*ymikami*/
 
-.right_img {
+.l-side > .right_img {
+  width: 250px;
   float: right;
-  margin: 30px 0 0 36px;
 }
 
-.right_img ul {
+.l-side > .right_img ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
-.right_img img {
+.l-side > .right_img img {
   padding-bottom: 30px;
 }
 /*ymikami*/
@@ -51,7 +126,7 @@ p {
 
 /* ***** Equi001 start ***** */
 .l-container{
-  margin: 30px 20px;
+  margin: 0 20px 30px;
 }
 .l-container .l-inner{
   width: 960px;
@@ -71,7 +146,6 @@ p {
 }
 .acv-info h2{
   font-size: 26px;
-  margin: 0;
 }
 .acv-info-list{
   list-style: none;
@@ -101,29 +175,6 @@ p {
 }
 /* ***** Equi001 end ***** */
 
-/*松木憲司*/
-.l-header {
-	width: 100%
-}
-
-.l-inner {
-	margin: 0 auto;
-	width: 960px;
-}
-
-h1 {
-	float: left;
-}
-
-p.description {
-	float: right;
-	font-size: 24px;
-}
-
-.clearfix {
-  overflow: hidden;
-  zoom: 1;
-}
 /* Ichimura Hirotaka */
 
 .container {
@@ -131,16 +182,17 @@ p.description {
   width: 930px;
 }
 
-.ttl {
+.ttl, .detail-title {
   color: #333;
   font-size: 26px;
-  margin-bottom: 17px;
+  margin: 0 0 17px 0;
 }
 
 .tbl-meeting {
-  border:solid 1px #CCC;
+  border: solid 1px #CCC;
   border-collapse: collapse;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .tbl-meeting > tbody > tr {
@@ -167,96 +219,3 @@ td {
   padding-left: 23px;
 }
 
-/* HB_sai */
-.l-visual{
-  width:100%;
-}
-
-.l-inner {
-  margin: 0 auto;
-  width: 960px;
-  position: relative;
-}
-
-.l-infomation {
-  width:390px;
-  height:130px;
-  background-color: #fff;
-  position:absolute;
-  top:40px;
-  left:0;
-}
-
-
-
-
-.l-visual {
-  width: 100%;
-  background-color: #333333;
-  height: 200px;
-
-}
-
-.l-visual > .l-inner {
-  width: 960px;
-}
-
-.l-visual > .l-inner > .l-info {
-  background-color: #ffffff;
-  opacity: 0.85;
-  width: 400px;
-  float: left;
-}
-
-.l-visual > .l-inner > .l-info > p {
-  margin: 0;
-}
-
-.l-visual > .l-inner > img {
-  float: right;
-}
-
-/* monoscilloscope */
-/* link-style */
-a:link    { color: #333333; text-decoration: underline; }
-a:visited { color: #333333; text-decoration: underline; }
-a:hover   { color: #333333; text-decoration: none; }
-a:active  { color: #333333; text-decoration: none; }
-/* clearfix */
-.cFix:before,.cFix:after { content: " "; display: table;}
-.cFix:after { clear: both;}
-.cFix { *zoom: 1;}
-
-.detail .l-container {
-  width: 960px;
-  margin: 0 auto;
-}
-.detail .l-contents {
-  width: 610px;
-  margin-bottom: 30px;
-  padding: 0 15px;
-}
-.detail .detail-title {
-  font-size: 26px;
-  color: #333;
-}
-.detail .date-wrap {}
-.detail .date-wrap .date-inner {
-  float: right;
-  font-size: 13px;
-  color: #333;
-}
-.detail .text-wrap {
-  font-size: 13px;
-  color: #333;
-}
-.detail .text-inner {
-  margin-bottom: 20px;
-}
-.detail .text-inner:last-child {
-  margin-bottom: 0;
-}
-.detail .text-inner .text-bold {
-  font-weight: bold;
-}
-/* monoscilloscope */
