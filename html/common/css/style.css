@@ -34,29 +34,44 @@ p {
 /* hisashi-18編集ここまで */
 /*ymikami*/
 
-.l-side {
-  width: 250px;
+.right_img {
   float: right;
   margin: 30px 0 0 36px;
 }
 
-.l-side ul {
+.right_img ul {
   list-style-type: none;
 }
 
-.l-side img {
+.right_img img {
   padding-bottom: 30px;
 }
 /*ymikami*/
 
 
 /* ***** Equi001 start ***** */
+.l-container{
+  margin: 30px 20px;
+}
+.l-container .l-inner{
+  width: 960px;
+  overflow: hidden;
+}
+.l-contents{
+  width: 640px;
+  float: left;
+}
+.l-side{
+  width: 250px;
+  float: right;
+}
 .acv-info{
   color: #333;
   width: 640px;
 }
 .acv-info h2{
   font-size: 26px;
+  margin: 0;
 }
 .acv-info-list{
   list-style: none;
@@ -100,9 +115,14 @@ h1 {
 	float: left;
 }
 
-
 p.description {
 	float: right;
+	font-size: 24px;
+}
+
+.clearfix {
+  overflow: hidden;
+  zoom: 1;
 }
 /* Ichimura Hirotaka */
 
@@ -136,6 +156,8 @@ p.description {
   background: #999;
   color: #FFF;
   font-size: 20px;
+  padding-left: 23px;
+  text-align: left;
 }
 
 td {
@@ -145,9 +167,32 @@ td {
   padding-left: 23px;
 }
 
+/* HB_sai */
+.l-visual{
+  width:100%;
+}
+
+.l-inner {
+  margin: 0 auto;
+  width: 960px;
+  position: relative;
+}
+
+.l-infomation {
+  width:390px;
+  height:130px;
+  background-color: #fff;
+  position:absolute;
+  top:40px;
+  left:0;
+}
+
+
+
+
 .l-visual {
   width: 100%;
-  background-color: #000000;
+  background-color: #333333;
   height: 200px;
 
 }
