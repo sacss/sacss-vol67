@@ -1,0 +1,13 @@
+.l-visual {
+  width: 960px;
+  background-color: #000000;
+  height: 200px;
+}
+
+.l-visual .l-inner {
+  float: left;
+}
+
+.l-visual img {
+  float: right;
+}
