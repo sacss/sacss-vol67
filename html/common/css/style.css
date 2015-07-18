@@ -117,6 +117,7 @@ h1 {
 
 p.description {
 	float: right;
+	font-size: 24px;
 }
 
 .clearfix {
