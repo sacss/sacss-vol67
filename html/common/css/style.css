@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*松木憲司*/
 .l-header {
 	width: 100%
@@ -15,4 +16,45 @@ h1 {
 
 p.description {
 	float: right;
+=======
+/* Ichimura Hirotaka */
+
+.container {
+  margin: auto;
+  width: 930px;
+}
+
+.ttl {
+  color: #333;
+  font-size: 26px;
+  margin-bottom: 17px;
+}
+
+.tbl-meeting {
+  border:solid 1px #CCC;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tbl-meeting > tbody > tr {
+  height: 44px;
+}
+
+.tbl-meeting > tbody > tr:nth-child(odd) {
+  background: #F0F0F0;
+}
+
+.tbl-gray > th {
+  border-right:solid 1px #CCC;
+  background: #999;
+  color: #FFF;
+  font-size: 20px;
+}
+
+td {
+  border:solid 1px #CCC;
+  border-width: 0px 1px 1px 0px;
+  font-size: 13px;
+  padding-left: 23px;
+>>>>>>> 5a7b9fcf5094ef696cf79785515906c878fbcab8
 }
