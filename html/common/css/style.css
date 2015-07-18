@@ -68,6 +68,10 @@ h1 {
 p.description {
 	float: right;
 
+.clearfix {
+  overflow: hidden;
+  zoom: 1;  /* IE6,7対策 */
+}
 /* Ichimura Hirotaka */
 
 .container {
