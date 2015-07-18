@@ -1,3 +1,57 @@
+/* ***** Equi001 start ***** */
+.info{
+  color: #333;
+  width: 640px;
+}
+.info h2{
+  font-size: 26px;
+}
+.info-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.info-list li:nth-child(2n+1){
+  background: #f0f0f0;
+}
+.info-list li a{
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0 10px 20px;
+  border-top: 1px solid #ccc;
+}
+.info-list li:last-child a{
+  border-bottom: 1px solid #ccc;
+}
+.info-list-date,
+.info-list-title{
+  font-size: 13px;
+  display: inline-block;
+}
+.info-list-date{
+  margin-right: 10px;
+}
+/* ***** Equi001 end ***** */
+
+/*松木憲司*/
+.l-header {
+	width: 100%
+}
+
+.l-inner {
+	margin: 0 auto;
+	width: 960px;
+}
+
+h1 {
+	float: left;
+}
+
+
+p.description {
+	float: right;
+
 /* Ichimura Hirotaka */
 
 .container {
@@ -51,3 +105,4 @@ td {
 .l-visual img {
   float: right;
 }
+
