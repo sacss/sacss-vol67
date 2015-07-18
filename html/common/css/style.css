@@ -1,44 +1,162 @@
-/* monoscilloscope */
-/* link-style */
-a:link    { color: #333333; text-decoration: underline; }
-a:visited { color: #333333; text-decoration: underline; }
-a:hover   { color: #333333; text-decoration: none; }
-a:active  { color: #333333; text-decoration: none; }
-/* clearfix */
-.cFix:before,.cFix:after { content: " "; display: table;}
-.cFix:after { clear: both;}
-.cFix { *zoom: 1;}
+/* hisashi-18編集ここから */
 
-.detail .l-container {
-  width: 960px;
-  margin: 0 auto;
+p {
+	font-size: 13px;
 }
-.detail .l-contents {
-  width: 610px;
-  margin-bottom: 30px;
-  padding: 0 15px;
+
+.sectionLeft{
+	float: left;
 }
-.detail .detail-title {
-  font-size: 26px;
-  color: #333;
+.sectionRight{
+	float: right;
 }
-.detail .date-wrap {}
-.detail .date-wrap .date-inner {
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+}
+,clearfix:after{
+	clear :both;
+}
+.clearfix{
+	*zoom: 1;
+}
+.detail-img {
+	margin:0;
+}
+.detail-img-right {
+	margin:0 0 20px 20px;
+}
+.detail-img-left {
+	margin:0 20px 20px 0;
+}
+
+/* hisashi-18編集ここまで */
+/*ymikami*/
+
+.l-side {
+  width: 250px;
   float: right;
-  font-size: 13px;
+  margin: 30px 0 0 36px;
+}
+
+.l-side ul {
+  list-style-type: none;
+}
+
+.l-side img {
+  padding-bottom: 30px;
+}
+/*ymikami*/
+
+
+/* ***** Equi001 start ***** */
+.acv-info{
   color: #333;
+  width: 640px;
 }
-.detail .text-wrap {
-  font-size: 13px;
+.acv-info h2{
+  font-size: 26px;
+}
+.acv-info-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.acv-info-list li:nth-child(2n+1){
+  background: #f0f0f0;
+}
+.acv-info-list li a{
   color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0 10px 20px;
+  border-top: 1px solid #ccc;
 }
-.detail .text-inner {
-  margin-bottom: 20px;
+.acv-info-list li:last-child a{
+  border-bottom: 1px solid #ccc;
 }
-.detail .text-inner:last-child {
-  margin-bottom: 0;
+.acv-list-date,
+.acv-list-title{
+  font-size: 13px;
+  display: inline-block;
 }
-.detail .text-inner .text-bold {
-  font-weight: bold;
+.acv-list-date{
+  margin-right: 10px;
 }
-/* monoscilloscope */
+/* ***** Equi001 end ***** */
+
+/*松木憲司*/
+.l-header {
+	width: 100%
+}
+
+.l-inner {
+	margin: 0 auto;
+	width: 960px;
+}
+
+h1 {
+	float: left;
+}
+
+
+p.description {
+	float: right;
+}
+/* Ichimura Hirotaka */
+
+.container {
+  margin: auto;
+  width: 930px;
+}
+
+.ttl {
+  color: #333;
+  font-size: 26px;
+  margin-bottom: 17px;
+}
+
+.tbl-meeting {
+  border:solid 1px #CCC;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tbl-meeting > tbody > tr {
+  height: 44px;
+}
+
+.tbl-meeting > tbody > tr:nth-child(odd) {
+  background: #F0F0F0;
+}
+
+.tbl-gray > th {
+  border-right:solid 1px #CCC;
+  background: #999;
+  color: #FFF;
+  font-size: 20px;
+}
+
+td {
+  border:solid 1px #CCC;
+  border-width: 0px 1px 1px 0px;
+  font-size: 13px;
+  padding-left: 23px;
+}
+
+.l-visual {
+  width: 100%;
+  background-color: #000000;
+  height: 200px;
+
+}
+
+.l-visual > .l-inner {
+  width: 960px;
+}
+
+.l-visual > .l-inner > img {
+  float: right;
+}
+
