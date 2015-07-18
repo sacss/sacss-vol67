@@ -201,6 +201,17 @@ td {
   width: 960px;
 }
 
+.l-visual > .l-inner > .l-info {
+  background-color: #ffffff;
+  opacity: 0.85;
+  width: 400px;
+  float: left;
+}
+
+.l-visual > .l-inner > .l-info > p {
+  margin: 0;
+}
+
 .l-visual > .l-inner > img {
   float: right;
 }
