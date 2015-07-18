@@ -17,6 +17,21 @@
 
 
 /* ***** Equi001 start ***** */
+.l-container{
+  margin: 30px 20px;
+}
+.l-container .l-inner{
+  width: 960px;
+  overflow: hidden;
+}
+.l-contents{
+  width: 640px;
+  float: left;
+}
+.l-side{
+  width: 250px;
+  float: right;
+}
 .acv-info{
   color: #333;
   width: 640px;
