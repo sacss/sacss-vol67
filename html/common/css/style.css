@@ -58,3 +58,27 @@ td {
   padding-left: 23px;
 >>>>>>> 5a7b9fcf5094ef696cf79785515906c878fbcab8
 }
+
+/* HB_sai */
+.l-visual{
+  width:100%;
+}
+
+.l-inner {
+  margin: 0 auto;
+  width: 960px;
+  position: relative;
+}
+
+.l-infomation {
+  width:390px;
+  height:130px;
+  background-color: #fff;
+  position:absolute;
+  top:40px;
+  left:0;
+}
+
+
+
+
