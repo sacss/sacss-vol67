@@ -1,3 +1,37 @@
+/* hisashi-18編集ここから */
+
+p {
+	font-size: 13px;
+}
+
+.sectionLeft{
+	float: left;
+}
+.sectionRight{
+	float: right;
+}
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+}
+,clearfix:after{
+	clear :both;
+}
+.clearfix{
+	*zoom: 1;
+}
+.detail-img {
+	margin:0;
+}
+.detail-img-right {
+	margin:0 0 20px 20px;
+}
+.detail-img-left {
+	margin:0 20px 20px 0;
+}
+
+/* hisashi-18編集ここまで */
 /*ymikami*/
 
 .right_img {
@@ -17,6 +51,21 @@
 
 
 /* ***** Equi001 start ***** */
+.l-container{
+  margin: 30px 20px;
+}
+.l-container .l-inner{
+  width: 960px;
+  overflow: hidden;
+}
+.l-contents{
+  width: 640px;
+  float: left;
+}
+.l-side{
+  width: 250px;
+  float: right;
+}
 .acv-info{
   color: #333;
   width: 640px;
