@@ -1,0 +1,15 @@
+/*ymikami*/
+
+.right_img {
+  width: 250px;
+  float: right;
+  margin: 30px 0 0 36px;
+}
+
+.right_img ul {
+  list-style-type: none;
+}
+
+.right_img img {
+  padding-bottom: 30px;
+}
