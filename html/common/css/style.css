@@ -34,6 +34,24 @@
 }
 /* ***** Equi001 end ***** */
 
+/*松木憲司*/
+.l-header {
+	width: 100%
+}
+
+.l-inner {
+	margin: 0 auto;
+	width: 960px;
+}
+
+h1 {
+	float: left;
+}
+
+
+p.description {
+	float: right;
+
 /* Ichimura Hirotaka */
 
 .container {
