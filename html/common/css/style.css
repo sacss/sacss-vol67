@@ -117,6 +117,7 @@ h1 {
 
 p.description {
 	float: right;
+	font-size: 24px;
 }
 
 .clearfix {
@@ -155,6 +156,8 @@ p.description {
   background: #999;
   color: #FFF;
   font-size: 20px;
+  padding-left: 23px;
+  text-align: left;
 }
 
 td {
