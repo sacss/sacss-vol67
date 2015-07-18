@@ -1,3 +1,5 @@
+/* hisashi-18編集ここから */
+
 p {
 	font-size: 13px;
 }
@@ -8,3 +10,25 @@ p {
 .sectionRight{
 	float: right;
 }
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+}
+,clearfix:after{
+	clear :both;
+}
+.clearfix{
+	*zoom: 1;
+}
+.detail-img {
+	margin:0;
+}
+.detail-img-right {
+	margin:0 0 20px 20px;
+}
+.detail-img-left {
+	margin:0 20px 20px 0;
+}
+
+/* hisashi-18編集ここまで */
