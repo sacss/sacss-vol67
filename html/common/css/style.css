@@ -160,3 +160,47 @@ td {
   float: right;
 }
 
+/* monoscilloscope */
+/* link-style */
+a:link    { color: #333333; text-decoration: underline; }
+a:visited { color: #333333; text-decoration: underline; }
+a:hover   { color: #333333; text-decoration: none; }
+a:active  { color: #333333; text-decoration: none; }
+/* clearfix */
+.cFix:before,.cFix:after { content: " "; display: table;}
+.cFix:after { clear: both;}
+.cFix { *zoom: 1;}
+
+.detail .l-container {
+  width: 960px;
+  margin: 0 auto;
+}
+.detail .l-contents {
+  width: 610px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+.detail .detail-title {
+  font-size: 26px;
+  color: #333;
+}
+.detail .date-wrap {}
+.detail .date-wrap .date-inner {
+  float: right;
+  font-size: 13px;
+  color: #333;
+}
+.detail .text-wrap {
+  font-size: 13px;
+  color: #333;
+}
+.detail .text-inner {
+  margin-bottom: 20px;
+}
+.detail .text-inner:last-child {
+  margin-bottom: 0;
+}
+.detail .text-inner .text-bold {
+  font-weight: bold;
+}
+/* monoscilloscope */
