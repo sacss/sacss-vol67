@@ -34,17 +34,17 @@ p {
 /* hisashi-18編集ここまで */
 /*ymikami*/
 
-.l-side {
+.right_img {
   width: 250px;
   float: right;
   margin: 30px 0 0 36px;
 }
 
-.l-side ul {
+.right_img ul {
   list-style-type: none;
 }
 
-.l-side img {
+.right_img img {
   padding-bottom: 30px;
 }
 /*ymikami*/
@@ -115,9 +115,13 @@ h1 {
 	float: left;
 }
 
-
 p.description {
 	float: right;
+}
+
+.clearfix {
+  overflow: hidden;
+  zoom: 1; 
 }
 /* Ichimura Hirotaka */
 
